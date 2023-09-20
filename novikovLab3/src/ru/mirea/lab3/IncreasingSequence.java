@@ -24,7 +24,7 @@ public class IncreasingSequence {
     }
     public static boolean check(int[] array) {
         for (int i = 1; i < array.length; i++) {
-            if (array[i] <= array[i - 1]) {
+            if (array[i] < array[i - 1]) {
                 return false;
             }
         }

@@ -35,3 +35,4 @@ public class Converter {
         return amountInEur * (rubToUsdRate / rubToEurRate);
     }
 }
+

@@ -33,7 +33,7 @@ public class Array {
         double[] array2 = new double[size];
         Random random = new Random();
         for (int i = 0; i < size; i++) {
-            array2[i] = random.nextDouble(101);
+            array2[i] = random.nextDouble() * maxValue;
         }
         System.out.println("\nGenerated array using Random class:");
         for (double element : array2) {
@@ -50,3 +50,4 @@ public class Array {
         System.out.println();
     }
 }
+
